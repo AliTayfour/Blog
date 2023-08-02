@@ -1,11 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Barber</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="frontend/img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- frontend/frontend/css here -->
+    <link rel="stylesheet" href="frontend/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="frontend/css/magnific-popup.css">
+    <link rel="stylesheet" href="frontend/css/font-awesome.min.css">
+    <link rel="stylesheet" href="frontend/css/themify-icons.css">
+    <link rel="stylesheet" href="frontend/css/nice-select.css">
+    <link rel="stylesheet" href="frontend/css/flaticon.css">
+    <link rel="stylesheet" href="frontend/css/gijgo.css">
+    <link rel="stylesheet" href="frontend/css/animate.css">
+    <link rel="stylesheet" href="frontend/css/slicknav.css">
+    <link rel="stylesheet" href="frontend/css/style.css">
   </head>
   <body>
     <noscript>
@@ -13,5 +31,51 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script src="frontend/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="frontend/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="frontend/js/popper.min."></script>
+    <script src="frontend/js/bootstrap.min.js"></script>
+    <script src="frontend/js/owl.carousel.min.js"></script>
+    <script src="frontend/js/isotope.pkgd.min.js"></script>
+    <script src="frontend/js/ajax-form.js"></script>
+    <script src="frontend/js/waypoints.min.js"></script>
+    <script src="frontend/js/jquery.counterup.min.js"></script>
+    <script src="frontend/js/imagesloaded.pkgd.min.js"></script>
+    <script src="frontend/js/scrollIt.js"></script>
+    <script src="frontend/js/jquery.scrollUp.min.js"></script>
+    <script src="frontend/js/wow.min.js"></script>
+    <script src="frontend/js/nice-select.min.js"></script>
+    <script src="frontend/js/jquery.slicknav.min.js"></script>
+    <script src="frontend/js/jquery.magnific-popup.min.js"></script>
+    <script src="frontend/js/plugins.js"></script>
+    <script src="frontend/js/gijgo.min.js"></script>
+
+    <!--contact frontend/js-->
+    <script src="frontend/js/contact.js"></script>
+    <script src="frontend/js/jquery.ajaxchimp.min.js"></script>
+    <script src="frontend/js/jquery.form.js"></script>
+    <script src="frontend/js/jquery.validate.min.js"></script>
+    <script src="frontend/js/mail-script.js"></script>
+
+    <script src="frontend/js/main.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            disableDaysOfWeek: [0, 0],
+        //     icons: {
+        //      rightIcon: '<span class="fa fa-caret-down"></span>'
+        //  }
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+
+        });
+        var timepicker = $('#timepicker').timepicker({
+         format: 'HH.MM'
+     });
+    </script>
   </body>
 </html>
